@@ -1,0 +1,51 @@
+:root {
+  /* Light theme core */
+  --bg: #FFFFFF;
+  --surface: #F8F9FA;
+  --surface-hover: #F1F3F5;
+  --border: #E5E7EB;
+  --text: #111827;
+  --muted: #6B7280;
+  --muted-light: #9CA3AF;
+
+  /* Brand / Accent */
+  --accent: #2563EB;
+  --accent-soft: rgba(37, 99, 235, 0.08);
+  --accent-hover: #1D4ED8;
+
+  /* Status colours */
+  --success: #059669;
+  --success-soft: rgba(5, 150, 105, 0.1);
+  --warning: #D97706;
+  --warning-soft: rgba(217, 119, 6, 0.1);
+  --danger: #DC2626;
+  --danger-soft: rgba(220, 38, 38, 0.1);
+  --violet: #7C3AED;
+  --violet-soft: rgba(124, 58, 237, 0.1);
+
+  /* Role badge colours */
+  --role-admin: #DC2626;
+  --role-admin-soft: rgba(220, 38, 38, 0.08);
+  --role-manager: #7C3AED;
+  --role-manager-soft: rgba(124, 58, 237, 0.08);
+  --role-lead: #D97706;
+  --role-lead-soft: rgba(217, 119, 6, 0.08);
+  --role-dev: #2563EB;
+  --role-dev-soft: rgba(37, 99, 235, 0.08);
+
+  /* Typography */
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Geometry */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Shadows - lighter for light theme */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0,0,0,0.02);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0,0,0,0.02);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0,0,0,0.02);
+}
